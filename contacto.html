@@ -10,7 +10,7 @@
     <body>
         <header>
             <div class="caja">
-                <h1><img src="logo.png"></h1>
+                <h1><img src="logo.png" alt="Logo de la Barbería Alura"></h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -35,8 +35,8 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
 
-                <div>
-                    <p>Cómo le gustaría que lo contactemos?</p>
+                <fieldset>
+                    <legend>Cómo le gustaría que lo contactemos?</legend>
                     
                     <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">
                         Email</label>
@@ -45,24 +45,24 @@
                     
                     <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                     
-                </div>
+                </fieldset>
                 
-                <div>
-                    <p>En qué horario prefier ser atendido?</p>
+                <fieldset>
+                    <legend>En qué horario prefier ser atendido?</legend>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
-                </div>
+                </fieldset>
                 <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de la barbería Alura?</label>
 
-                <input type="submit" name="contacto" value="Enviar formulario">
+                <input type="submit" name="contacto" value="Enviar formulario" class="enviar">
             </form>
         </main>
 
         <footer>
-            <img src="logo-blanco.png">
+            <img src="logo-blanco.png" alt="Logo de la Barbería Alura">
             <p class="copyright">&copy Copyright Barberia Alura 2022</p>
         </footer>
 
