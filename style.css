@@ -135,3 +135,23 @@ form label, form legend{
     background: darkorange;
     transform: scale(1.2);
 }
+
+.atencion{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: gray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+}
