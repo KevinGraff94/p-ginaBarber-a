@@ -48,7 +48,7 @@ nav a:hover{
     margin: 20% 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #161515;
     border-radius: 10px;
 }
 
@@ -154,4 +154,10 @@ thead{
 td, th{
     border: 1px solid black;
     padding: 8px;
+}
+
+/*CSS para nuestra página home*/
+
+.banner{
+    
 }
