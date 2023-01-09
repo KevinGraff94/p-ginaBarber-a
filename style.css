@@ -243,6 +243,7 @@ td, th{
 .imagen-diferenciales{
     width: 60%;
     transition: 1s;
+    box-shadow: 7px 7px 20px 7px black;
 }
 
 .imagen-diferenciales:hover{
