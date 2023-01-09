@@ -7,10 +7,12 @@ header{
     padding: 20px 0;
 }
 
+/*Estilos de la página de productos*/
 .caja{
     width: 940px;
     position: relative;
     margin: 0 auto;
+    height: auto;
     
 
 }
@@ -29,7 +31,7 @@ nav a{
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -65,7 +67,7 @@ nav a:hover{
 }
 
 .productos h2{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -74,7 +76,7 @@ nav a:hover{
 }
 
 .producto-descripción{
-    font-size: 18px;
+    font-size: 30px;
 
 }
 
@@ -97,9 +99,9 @@ footer{
 }
 
 
-
+/*Estilos de la página de contacto*/
 form{
-    margin: 40px 0px;
+    margin: 40px 10px;
 }
 
 form label, form legend{
@@ -133,13 +135,13 @@ form label, form legend{
 }
 
 .enviar:hover{
-    background: darkorange;
-    transform: scale(1.2);
+    background: rgb(168, 95, 5);
 }
 
 .atencion{
     font-size: 20px;
     font-weight: bold;
+    padding: 0 30px;
 }
 
 table{
@@ -157,7 +159,7 @@ td, th{
     padding: 8px;
 }
 
-/*CSS para nuestra página home*/
+/*CSS de la página home*/
 
 .banner{
     width: 100%;
@@ -166,7 +168,7 @@ td, th{
 
 .principal{
     padding: 3em 0;
-    background: #FEFEFE;
+    background:#ffffff;
     width: 940px;
     margin: 0 auto;
 }
@@ -199,7 +201,7 @@ td, th{
 
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(#e0dbdba5,rgb(131, 122, 122));
+    background: linear-gradient(#FEFEFE,rgb(181, 177, 177));
 }
 
 .mapa p{
@@ -215,7 +217,7 @@ td, th{
 
 .diferenciales{
     padding: 3em 0;
-    background: linear-gradient(rgb(131, 122, 122),rgb(89, 88, 88));
+    background: linear-gradient(rgb(181, 177, 177),rgb(160, 151, 151));
 }
 
 .contenido-diferenciales{
